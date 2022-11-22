@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5D3KSUW3VFKWU+PJTYNBHzwqP6waZXAevkonDXxgg3cHDmVB3D4q7hqmoC7QB1gN49KluC9cKxPh/eIGNRTphg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ianhi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
