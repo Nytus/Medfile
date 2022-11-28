@@ -9,8 +9,8 @@
             
             
             
-            <Entry x:Name="txtUsername"  Placeholder="Ingresar Rut" TextColor="White" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtPassword"  Placeholder="Ingresar Contraseña" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtUsername"  Placeholder="Ingresar Rut" TextColor="Gray" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword"  Placeholder="Ingresar Contraseña" IsPassword="True" TextColor="Gray" PlaceholderColor="Gray"></Entry>
             <Button
                 VerticalOptions="Center"
                 Text="Ingrese"

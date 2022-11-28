@@ -4,9 +4,82 @@
              x:Class="MedFile.HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to home page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image
+                
+                />
+            <Label
+                Text="Nombre"
+                FontSize="Header"
+                HorizontalOptions="End"
+                />
+            <Button
+                Text="Historial medico"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Recetas medicas"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                
+                ></Button>
+            <Button
+                Text="Citas medicas recientes"
+               BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Proximas citas medicas"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Calendario"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Mapa"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Solicitudes"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Blue"
+                TextColor="White"
+                
+                ></Button>
+            <Button
+                Text="Salir"
+                BorderWidth="15"
+                CornerRadius="10"
+                BackgroundColor="Red"
+                TextColor="White"
+                VerticalOptions="EndAndExpand" 
+                
+                ></Button>
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

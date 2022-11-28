@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile\\MedFile.csproj": {}
+    "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile\\MedFile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile\\MedFile.csproj": {
+    "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile\\MedFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile\\MedFile.csproj",
+        "projectUniqueName": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile\\MedFile.csproj",
         "projectName": "MedFile",
-        "projectPath": "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile\\MedFile.csproj",
-        "packagesPath": "C:\\Users\\ianhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianhi\\source\\repos\\MedFile\\MedFile\\MedFile\\obj\\",
+        "projectPath": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile\\MedFile.csproj",
+        "packagesPath": "C:\\Users\\Nytus\\.nuget\\packages\\",
+        "outputPath": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ianhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nytus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
