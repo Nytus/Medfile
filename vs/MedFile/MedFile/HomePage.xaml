@@ -26,9 +26,8 @@
                 />
             <Button
                 Text="Ver perfil"
-                VerticalOptions="Center"
-                BorderWidth="15"
-                CornerRadius="10"
+                BorderWidth="0"
+                CornerRadius="5"
                 BackgroundColor="Blue"
                 TextColor="White"
                 FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
