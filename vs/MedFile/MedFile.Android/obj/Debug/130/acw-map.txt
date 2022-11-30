@@ -1,6 +1,9 @@
 MedFile.Droid.MainActivity, MedFile.Android;crc6405d5b15f5923aa14.MainActivity
 MedFile.Droid.MainActivity;crc6405d5b15f5923aa14.MainActivity
 medfile.droid.MainActivity;crc6405d5b15f5923aa14.MainActivity
+MedFile.Droid.SplashActivity, MedFile.Android;crc6405d5b15f5923aa14.SplashActivity
+MedFile.Droid.SplashActivity;crc6405d5b15f5923aa14.SplashActivity
+medfile.droid.SplashActivity;crc6405d5b15f5923aa14.SplashActivity
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

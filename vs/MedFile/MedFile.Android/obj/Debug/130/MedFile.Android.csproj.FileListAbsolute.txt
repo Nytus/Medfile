@@ -1330,7 +1330,6 @@ C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxxhdpi\icon.png
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\logo.jpg
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\uploadflags.txt
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\assets\FormsViewGroup.dll
@@ -1900,3 +1899,6 @@ C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\sta
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\logo.png
+C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\src\crc6405d5b15f5923aa14\SplashActivity.java
+C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\splash_screen.xml

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\vs",
+    "\\vs\\MedFile",
+    "\\vs\\MedFile\\MedFile"
   ],
-  "SelectedNode": "\\MedFile.sln",
   "PreviewInSolutionExplorer": false
 }

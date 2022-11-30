@@ -4,9 +4,7 @@
              x:Class="MedFile.HistorialMedico">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Pagina Del historial Medico"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
