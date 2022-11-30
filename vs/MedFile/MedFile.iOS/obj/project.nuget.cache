@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7NtQInpdQMU7M6pwVEIUEu9BHTUxJmUW+Grst+KISLyR7q09XLcwLRbunbUNkJWpVdGJ3o0jgIb3+PjiTlLZ2Q==",
+  "dgSpecHash": "4knOvot1acsAaSaznpiCxD/B7IzunAZ0xkbLMl4OfXKfNsVHKDLy0oRiTTMyEswncu7a5PFgqyvrs5INMP/OcQ==",
   "success": true,
-  "projectFilePath": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\vs\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nytus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\ianhi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

@@ -26,11 +26,12 @@
                 />
             <Button
                 Text="Ver perfil"
-               BorderWidth="0"
+                BorderWidth="0"
                 CornerRadius="5"
                 BackgroundColor="Blue"
                 TextColor="White"
-                FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"   
+                FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
+                Clicked="Boton_Perfil"
                 
                 ></Button>
             <Button
@@ -39,6 +40,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White" Margin="0,48,0,0" 
+                Clicked="Boton_Historial"
                 
                 ></Button>
             <Button
@@ -47,6 +49,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_Receta"
                 
                 
                 ></Button>
@@ -56,6 +59,8 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_CitaReciente"
+                
                 
                 ></Button>
             <Button
@@ -64,6 +69,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_CitaProxima"
                 
                 ></Button>
             <Button
@@ -72,6 +78,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_Calendario"
                 
                 ></Button>
             <Button
@@ -80,6 +87,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_Mapa"
                 
                 ></Button>
             <Button
@@ -88,6 +96,7 @@
                 CornerRadius="10"
                 BackgroundColor="Blue"
                 TextColor="White"
+                Clicked="Boton_Solicitudes"
                 
                 ></Button>
             <Button
@@ -97,6 +106,7 @@
                 BackgroundColor="Red"
                 TextColor="White"
                 VerticalOptions="EndAndExpand" 
+                Clicked="Boton_Salir1"
                 
                 ></Button>
             

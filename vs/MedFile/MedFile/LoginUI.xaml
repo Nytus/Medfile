@@ -5,10 +5,8 @@
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
-            <Image Source="Logo.jpg" WidthRequest="180" HeightRequest="180"></Image>
-            
-            
-            
+            <Image Source="Logo.png" WidthRequest="300" HeightRequest="300"></Image>
+              
             <Entry x:Name="txtUsername"  Placeholder="Ingresar Rut" TextColor="Gray" PlaceholderColor="Gray"></Entry>
             <Entry x:Name="txtPassword"  Placeholder="Ingresar Contraseña" IsPassword="True" TextColor="Gray" PlaceholderColor="Gray"></Entry>
             <Button
