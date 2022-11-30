@@ -4,9 +4,36 @@
              x:Class="MedFile.Calendario">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Pagina Del calendario"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="User.png"
+                   WidthRequest="50" 
+                   HeightRequest="50" Margin="0"
+                   
+                   ></Image>
+            <Label
+                Text="Nombre"
+                FontSize="40"
+                HorizontalTextAlignment="Center" Margin="-12,-50,0,0"
+                />
+            <Label
+                Text="Apellidos"
+                FontSize="25"                
+                HorizontalTextAlignment="Center" Margin="-50,-20,0,0" 
+                />
+            <Label
+                Text="Fecha: 1/1/2022"
+                FontSize="20"                
+                HorizontalTextAlignment="Center" Margin="200,0,0,0" LineBreakMode="NoWrap" 
+                />
+            <Button
+                Text="Ver perfil"
+                BorderWidth="0"
+                CornerRadius="5"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
+               
+                
+                ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

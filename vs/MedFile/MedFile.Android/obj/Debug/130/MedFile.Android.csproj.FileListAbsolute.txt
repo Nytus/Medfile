@@ -696,7 +696,6 @@ F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\13
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxhdpi\launcher_foreground.png
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxxhdpi\icon.png
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\mipmap-xxxhdpi\launcher_foreground.png
-F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\logo.jpg
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\uploadflags.txt
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\resolvedassemblies.hash
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\assets\FormsViewGroup.dll
@@ -1902,3 +1901,6 @@ C:\Users\ianhi\Source\Repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\sta
 C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\logo.png
 C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\src\crc6405d5b15f5923aa14\SplashActivity.java
 C:\Users\ianhi\source\repos\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\splash_screen.xml
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\logo.png
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\splash_screen.xml
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\src\crc6405d5b15f5923aa14\SplashActivity.java
