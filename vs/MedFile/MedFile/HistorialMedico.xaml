@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedFile.HistorialMedico">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout IsEnabled="False" IsTabStop="True" CascadeInputTransparent="False">
             <Image Source="User.png"
                    WidthRequest="50" 
                    HeightRequest="50" Margin="0"
@@ -31,10 +31,73 @@
                 BackgroundColor="Blue"
                 TextColor="White"
                 FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
-               
-                
+              ></Button>
+            <Button
+                Text="Historial medico"
+                BorderWidth="2"
+                CornerRadius="10"
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue" 
+                Margin="0,48,0,0" 
                 ></Button>
             
+            <Button
+                Text="Fractura del esternon"
+                BorderWidth="2"
+                CornerRadius="10"
+                HeightRequest="80"               
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue"       
+                ></Button>
+
+            <BoxView
+                Color="LightGray"
+                HeightRequest="300" Margin="0,-6,0,0"
+            ></BoxView>
+            
+
+            <Button
+                Text="Historial medico"
+                BorderWidth="2"
+                CornerRadius="10"
+                HeightRequest="80"               
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue"       
+                ></Button>
+
+            <Button
+                Text="Historial medico"
+                BorderWidth="2"
+                CornerRadius="10"
+                HeightRequest="80"               
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue"       
+                ></Button>
+            <Button
+                Text="Historial medico"
+                BorderWidth="2"
+                CornerRadius="10"
+                HeightRequest="80"               
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue"       
+                ></Button>
+            <Button
+                Text="Historial medico"
+                BorderWidth="2"
+                CornerRadius="10"
+                HeightRequest="80"               
+                BackgroundColor="White"
+                BorderColor="Blue"
+                TextColor="Blue"       
+                ></Button>
+            
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
