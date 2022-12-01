@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7NtQInpdQMU7M6pwVEIUEu9BHTUxJmUW+Grst+KISLyR7q09XLcwLRbunbUNkJWpVdGJ3o0jgIb3+PjiTlLZ2Q==",
+  "dgSpecHash": "iKJv2S3I14avTTA4vh5g4WJAyJY3mtkB3YFJ+bkZPXolb225UDQvTmEqsmfdbhgvdg4ekUg4oHC5xTxI4Hejfw==",
   "success": true,
   "projectFilePath": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,5 +8,32 @@
     "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n MedFile.iOS -> MedFile -> Xamarin.Essentials (>= 1.7.3) \r\n MedFile.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2515 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MedFile.iOS -> MedFile -> Xamarin.Forms (>= 5.0.0.2515) \r\n MedFile.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
