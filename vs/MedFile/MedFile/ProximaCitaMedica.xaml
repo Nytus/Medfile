@@ -1,105 +1,208 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="MedFile.ProximaCitaMedica">
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout IsEnabled="False" IsTabStop="True" CascadeInputTransparent="False">
-                <Image Source="User.png"
-                   WidthRequest="50" 
-                   HeightRequest="50" Margin="0"
+    <StackLayout Spacing="0">
+
+        <Image Source="User.png"
+                   WidthRequest="100" 
+                   HeightRequest="100" 
+               HorizontalOptions="Start"
+               VerticalOptions="End" Margin="0,15,0,0"
                    
                    ></Image>
-                <Label
+        <Label
                 Text="Nombre"
                 FontSize="40"
-                HorizontalTextAlignment="Center" Margin="-12,-50,0,0"
+                HorizontalTextAlignment="Center" Margin="-12,-100,0,0"
                 />
-                <Label
+        <Label
                 Text="Apellidos"
                 FontSize="25"                
-                HorizontalTextAlignment="Center" Margin="-50,-20,0,0" 
+                HorizontalTextAlignment="Center" Margin="-50,-9,0,0" 
                 />
-                <Label
+        <Label
                 Text="Fecha: 1/1/2022"
                 FontSize="20"                
                 HorizontalTextAlignment="Center" Margin="200,0,0,0" LineBreakMode="NoWrap" 
                 />
-                <Button
+        <Button
                 Text="Ver perfil"
-                BorderWidth="0"
                 CornerRadius="5"
                 BackgroundColor="Blue"
                 TextColor="White"
-                FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
+                FontSize="9" HorizontalOptions="Center" Margin="0,-25,66,0" HeightRequest="30"
               ></Button>
-                <Button
-                Text="Historial medico"
-                BorderWidth="2"
-                CornerRadius="10"
-                BackgroundColor="White"
-                BorderColor="Blue"
-                TextColor="Blue" 
-                Margin="0,48,0,0" 
-                ></Button>
 
-                <Button
-                Text="Fractura del esternon"
+        <Button
+                Text="Recetas Medicas"
                 BorderWidth="2"
-                CornerRadius="10"
-                HeightRequest="80"               
-                BackgroundColor="White"
                 BorderColor="Blue"
-                TextColor="Blue"       
-                ></Button>
-
-                <BoxView
-                Color="LightGray"
-                HeightRequest="300" Margin="0,-6,0,0"
-            ></BoxView>
-
-
-                <Button
-                Text="Historial medico"
-                BorderWidth="2"
                 CornerRadius="10"
-                HeightRequest="80"               
                 BackgroundColor="White"
-                BorderColor="Blue"
-                TextColor="Blue"       
-                ></Button>
-
-                <Button
-                Text="Historial medico"
-                BorderWidth="2"
-                CornerRadius="10"
-                HeightRequest="80"               
-                BackgroundColor="White"
-                BorderColor="Blue"
-                TextColor="Blue"       
-                ></Button>
-                <Button
-                Text="Historial medico"
-                BorderWidth="2"
-                CornerRadius="10"
-                HeightRequest="80"               
-                BackgroundColor="White"
-                BorderColor="Blue"
-                TextColor="Blue"       
-                ></Button>
-                <Button
-                Text="Historial medico"
-                BorderWidth="2"
-                CornerRadius="10"
-                HeightRequest="80"               
-                BackgroundColor="White"
-                BorderColor="Blue"
-                TextColor="Blue"       
+                TextColor="Blue" Margin="0,48,0,0" 
+                
+                
                 ></Button>
 
 
+        <xct:Expander >
+            <xct:Expander.Header>
+                <Grid Padding="10">
+                    <Grid >
+                        <Label Text="Metformina - 850mg"
+                       FontSize="25" />
 
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
+                        <Label Text="Fecha: 1/12/2021"
+                               HorizontalOptions="End"
+                               VerticalOptions="Center"
+                               FontSize="15"
+                        
+                        ></Label>
+                    </Grid>
+                    <Image Source="expand.png"
+                           WidthRequest="15"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image"
+                                 Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                 Value="True">
+                                <Setter Property="Rotation"
+                                Value="180" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </Grid>
+            </xct:Expander.Header>
+            <xct:Expander.ContentTemplate>
+                <DataTemplate>
+                    <Grid Padding="10"
+                          HorizontalOptions="FillAndExpand"
+                          VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Metformina.jpg"
+                               HeightRequest="50"
+                               Aspect="Fill"/>
+                        <Label Grid.Column="1"
+                               VerticalOptions="FillAndExpand"
+                               Text="Consumir hasta nuevo aviso"
+                       FontAttributes="Bold" />
+                    </Grid>
+                </DataTemplate>
+            </xct:Expander.ContentTemplate>
+        </xct:Expander>
+        <xct:Expander >
+            <xct:Expander.Header>
+                <Grid Padding="10">
+                    <Grid >
+                        <Label Text="Spirulina - 500mg"
+                       FontSize="25" />
+
+                        <Label Text="Fecha: 1/12/2021"
+                               HorizontalOptions="End"
+                               VerticalOptions="Center"
+                               FontSize="15"
+                        
+                        ></Label>
+                    </Grid>
+                    <Image Source="expand.png"
+                           WidthRequest="15"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image"
+                                 Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                 Value="True">
+                                <Setter Property="Rotation"
+                                Value="180" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </Grid>
+            </xct:Expander.Header>
+            <xct:Expander.ContentTemplate>
+                <DataTemplate>
+                    <Grid Padding="10"
+                          HorizontalOptions="FillAndExpand"
+                          VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="RadioMandibula.jpeg"
+                               HeightRequest="50"
+                               Aspect="Fill"/>
+                        <Label Grid.Column="1"
+                               VerticalOptions="FillAndExpand"
+                               Text="Consumir 1 al dia hasta nuevo aviso dentro del proximo control"
+                       FontAttributes="Bold" />
+                    </Grid>
+                </DataTemplate>
+            </xct:Expander.ContentTemplate>
+        </xct:Expander>
+        <xct:Expander >
+            <xct:Expander.Header>
+                <Grid Padding="10">
+                    <Grid >
+                        <Label Text="Alparazolam - 0,5mg"
+                       FontSize="25" />
+
+                        <Label Text="Fecha: 1/12/2021"
+                               HorizontalOptions="End"
+                               VerticalOptions="Start"
+                               FontSize="15"
+                        
+                        ></Label>
+                        <Label Text="Vence: 3/12/2021"
+                               HorizontalOptions="End"
+                               VerticalOptions="End"
+                               
+                               FontSize="15" 
+                        
+                        ></Label>
+                    </Grid>
+                    <Image Source="expand.png"
+                           WidthRequest="15"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image"
+                                 Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                 Value="True">
+                                <Setter Property="Rotation"
+                                Value="180" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </Grid>
+            </xct:Expander.Header>
+            <xct:Expander.ContentTemplate>
+                <DataTemplate>
+                    <Grid Padding="10"
+                          HorizontalOptions="FillAndExpand"
+                          VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Nutricionista.jpg"
+                               HeightRequest="50"
+                               Aspect="Fill"/>
+                        <Label Grid.Column="1"
+                               VerticalOptions="FillAndExpand"
+                               Text="Consumir con precaucion y solo hasta la fecha de vencimiento de la receta, en caso de complicaciones contacte a su servicio de emergencias mas cercanos"
+                       FontAttributes="Bold" />
+                    </Grid>
+                </DataTemplate>
+            </xct:Expander.ContentTemplate>
+        </xct:Expander>
+
+
+    </StackLayout>
+
 </ContentPage>
