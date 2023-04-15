@@ -1,0 +1,2 @@
+# Igorar archivo .vs
+/.vs

@@ -1946,3 +1946,6 @@ F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\13
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\android\src\crc645b8ccbad6ecd7dce\SideMenuViewRenderer.java
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\user.png
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\radio.jpg
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\radiomandibula.jpg
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\metformina.png
+F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile.Android\obj\Debug\130\res\drawable\nutricionista.jpg
