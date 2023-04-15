@@ -1,2 +1,2 @@
-# Igorar archivo .vs
-/.vs
+# Igorar carpeta oculta .vs
+.vs/
