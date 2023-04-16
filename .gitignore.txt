@@ -1,2 +1,4 @@
 # Ignorar archivos ocultos
-/.vs
+/*
+!/MedFile
+!/MedFile.sln
