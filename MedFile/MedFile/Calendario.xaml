@@ -1,39 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:calendar="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
              x:Class="MedFile.Calendario">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="20">
             <Image Source="User.png"
-                   WidthRequest="50" 
-                   HeightRequest="50" Margin="0"
+                   WidthRequest="100" 
+                   HeightRequest="100" 
+                   HorizontalOptions="Start"
+                   VerticalOptions="End"
+                   Margin="20"
                    
                    ></Image>
             <Label
-                Text="Nombre"
+                Text="Nombre Apellidos"
                 FontSize="40"
-                HorizontalTextAlignment="Center" Margin="-12,-50,0,0"
-                />
-            <Label
-                Text="Apellidos"
-                FontSize="25"                
-                HorizontalTextAlignment="Center" Margin="-50,-20,0,0" 
-                />
-            <Label
-                Text="Fecha: 1/1/2022"
-                FontSize="20"                
-                HorizontalTextAlignment="Center" Margin="200,0,0,0" LineBreakMode="NoWrap" 
+                HorizontalTextAlignment="Center" Margin="-12,-100,0,0"
                 />
             <Button
                 Text="Ver perfil"
                 BorderWidth="0"
-                CornerRadius="5"
-                BackgroundColor="Blue"
+                CornerRadius="25"
+                BackgroundColor="#414BB2"
                 TextColor="White"
-                FontSize="12" HorizontalOptions="Center" Margin="0,-33,66,0" HeightRequest="30"
-               
-                
+                FontSize="12" HorizontalOptions="Center" Margin="0,-12,66,0" HeightRequest="38"
                 ></Button>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

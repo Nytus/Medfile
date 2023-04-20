@@ -30,9 +30,13 @@ namespace MedFile
 
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private void Button_Recuperacion(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ContraseñaperdidaPage());
         }
+        private void OnImageButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new HomePage());
+        }
     }
-}
+}  

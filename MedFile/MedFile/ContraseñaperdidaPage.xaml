@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedFile.ContraseñaperdidaPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Recuperar Contraseña!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="Logo.png" WidthRequest="300" HeightRequest="300"></Image>
+
+            <Entry x:Name="txtMail"  Placeholder="Ingresar Rut" TextColor="Gray" PlaceholderColor="Gray"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Ingrese Mail De Recuperación"
+                TextColor="White"
+                BackgroundColor="Blue"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_ContraseñaPerdida"
+                ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

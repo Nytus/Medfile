@@ -68,3 +68,11 @@ F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile\obj\Debug\netstandar
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile\obj\Debug\netstandard2.0\ProximaCitaMedica.xaml.g.cs
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile\obj\Debug\netstandard2.0\RecetaMedica.xaml.g.cs
 F:\Trabajos\IngenieriaDeSoftware\Medfile\vs\MedFile\MedFile\obj\Debug\netstandard2.0\Solicitudes.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Calendario.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\CitaMedicaReciente.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\HistorialMedico.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Mapa.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\PerfilUsuario.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\ProximaCitaMedica.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\RecetaMedica.xaml.g.cs
+C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Solicitudes.xaml.g.cs

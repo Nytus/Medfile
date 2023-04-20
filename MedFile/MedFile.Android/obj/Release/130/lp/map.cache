@@ -103,3 +103,5 @@ androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
 Xamarin.CommunityToolkit.dll
+Syncfusion.Core.XForms.Android.dll
+Syncfusion.SfCalendar.XForms.Android.dll

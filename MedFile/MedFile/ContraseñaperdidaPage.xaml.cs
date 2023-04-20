@@ -16,5 +16,9 @@ namespace MedFile
 		{
 			InitializeComponent ();
 		}
-	}
+        private void Button_ContraseñaPerdida(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginUI());
+        }
+    }
 }
