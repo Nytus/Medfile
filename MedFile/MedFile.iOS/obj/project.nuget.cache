@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HrscCi6S3h0Mf0bLNwdltzn5dG4+zgWZ907gZprcCZX1aNQc6KDVzjc3dxdbR0J1m8ZuGjx8nGHRCV3h8r6GhA==",
+  "dgSpecHash": "qXmMXpTJZzXL5FYur7VbtEZhkXRGLARoNvuKyyEty/vBSwpEzWJoT0+hphgM1DaTfXh4+WD/y+JcWZKLfMxdXQ==",
   "success": true,
-  "projectFilePath": "F:\\Trabajos\\IngenieriaDeSoftware\\Medfile\\vs\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nytus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
-    "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Nytus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Sebastian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": [
     {
