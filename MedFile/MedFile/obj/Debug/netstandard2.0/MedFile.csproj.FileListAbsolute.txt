@@ -76,3 +76,4 @@ C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Per
 C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\ProximaCitaMedica.xaml.g.cs
 C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\RecetaMedica.xaml.g.cs
 C:\Users\ianhi\Source\Repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Solicitudes.xaml.g.cs
+C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile\obj\Debug\netstandard2.0\Registro.xaml.g.cs

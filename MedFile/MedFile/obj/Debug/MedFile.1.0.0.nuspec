@@ -7,7 +7,6 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="Syncfusion.Xamarin.SfCalendar" version="21.1.41" exclude="Build,Analyzers" />
         <dependency id="Xamarin.CommunityToolkit" version="2.0.5" exclude="Build,Analyzers" />
         <dependency id="Xamarin.Essentials" version="1.7.5" exclude="Build,Analyzers" />
         <dependency id="Xamarin.Forms" version="5.0.0.2578" exclude="Build,Analyzers" />

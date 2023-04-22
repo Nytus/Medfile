@@ -2,51 +2,28 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
-      "Syncfusion.Licensing/21.1.41": {
+      "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
-          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+          "lib/netstandard1.0/_._": {}
         },
         "runtime": {
-          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+          "lib/netstandard1.0/_._": {}
         }
       },
-      "Syncfusion.Xamarin.Core/21.1.41": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.41",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Microsoft.NETCore.Platforms": "1.1.0"
         },
         "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
-          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.0/_._": {}
         },
         "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
-          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfCalendar/21.1.41": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Xamarin.Core": "21.1.41",
-          "Xamarin.Forms": "5.0.0.2012"
+          "lib/netstandard1.0/_._": {}
         },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.Android.dll": {},
-          "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.Android.dll": {},
-          "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.dll": {
-            "related": ".xml"
-          }
+        "build": {
+          "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -1846,7 +1823,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Syncfusion.Xamarin.SfCalendar": "21.1.41",
           "Xamarin.CommunityToolkit": "2.0.5",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2578"
@@ -1861,95 +1837,148 @@
     }
   },
   "libraries": {
-    "Syncfusion.Licensing/21.1.41": {
-      "sha512": "biZ5e9sMtHUhb6wKozaZEa5X7yB0J46LjqMp6YVKYKaUWcVe0606xriIbT3GcAtyBIC6CqLywONXhy2IYAbgYA==",
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
-      "path": "syncfusion.licensing/21.1.41",
+      "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
-        "lib/net40/Syncfusion.Licensing.dll",
-        "lib/net45/Syncfusion.Licensing.dll",
-        "lib/net451/Syncfusion.Licensing.dll",
-        "lib/net46/Syncfusion.Licensing.dll",
-        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net6.0/Syncfusion.Licensing.dll",
-        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net7.0/Syncfusion.Licensing.dll",
-        "lib/netstandard2.0/Syncfusion.Licensing.dll",
-        "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.21.1.41.nupkg.sha512",
-        "syncfusion.licensing.nuspec",
-        "syncfusion_logo.png"
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
       ]
     },
-    "Syncfusion.Xamarin.Core/21.1.41": {
-      "sha512": "Pv4rOFBgDlyjD6BNy6WmzH0CJLhZJpTJPV/vi/Wzh5nMUAn2sXRMGrz+cXqNynk85O19Yvjer7xNqW5M1DwCdw==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/21.1.41",
+      "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll",
-        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll",
-        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.xml",
-        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
-        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
-        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
-        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.dll",
-        "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.21.1.41.nupkg.sha512",
-        "syncfusion.xamarin.core.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfCalendar/21.1.41": {
-      "sha512": "oVKX7Qhhx4TNfMwTwHytvey68qFt1GSclzFRbqWsG9afk5F3sXOfxRjLnLphuFDLyYtwa86giMea+zJIPiNqMw==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfcalendar/21.1.41",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.Android.dll",
-        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.dll",
-        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.xml",
-        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll",
-        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.xml",
-        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll",
-        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.xml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.XML",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.dll",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.pri",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP.xr.xml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP.xr.xml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Themes/CalendarStyles.xaml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Themes/Generic.xaml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.dll",
-        "lib/uap10.0/Syncfusion.SfCalendar.XForms.xml",
-        "syncfusion.xamarin.sfcalendar.21.1.41.nupkg.sha512",
-        "syncfusion.xamarin.sfcalendar.nuspec",
-        "syncfusion_logo.png"
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -3605,46 +3634,30 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
       "MedFile >= 1.0.0",
-      "Syncfusion.Xamarin.SfCalendar >= 21.1.41",
+      "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.7.5",
       "Xamarin.Forms >= 5.0.0.2578"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\ianhi\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\Sebastian\\.nuget\\packages\\": {},
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.Android\\MedFile.Android.csproj",
       "projectName": "MedFile.Android",
       "projectPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.Android\\MedFile.Android.csproj",
       "packagesPath": "C:\\Users\\ianhi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.Android\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.Android\\MedFile.Android.csproj",
-      "projectName": "MedFile.Android",
-      "projectPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.Android\\MedFile.Android.csproj",
-      "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.Android\\obj\\",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\ianhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3658,13 +3671,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
               "projectPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj"
-=======
-            "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
-              "projectPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj"
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
             }
           }
         }
@@ -3673,13 +3681,13 @@
     "frameworks": {
       "monoandroid13.0": {
         "dependencies": {
-          "Syncfusion.Xamarin.SfCalendar": {
+          "NETStandard.Library": {
             "target": "Package",
-            "version": "[21.1.41, )"
+            "version": "[2.0.3, )"
           },
-          "Syncfusion.Xamarin.SfCalendar": {
+          "NETStandard.Library": {
             "target": "Package",
-            "version": "[21.1.41, )"
+            "version": "[2.0.3, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

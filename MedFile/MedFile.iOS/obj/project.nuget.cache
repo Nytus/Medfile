@@ -1,27 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "kdySBVhQlIYvVdHi8vKmxtjP7UbFyM+qmZDZiYMoD5a6COFVlSC2ELG8Wi2IMh2Wqrwll3WB3zHO6sXPW0Nrkg==",
+  "dgSpecHash": "ATRp+NXJJkQjq83U5fgk8ruJ49qZaZaql40ou1J1yE6tTgoHqLSJw1sQ4zRedKLxWMFA266XAbGeOPtJGWqMjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ianhi\\.nuget\\packages\\syncfusion.licensing\\21.1.41\\syncfusion.licensing.21.1.41.nupkg.sha512",
-    "C:\\Users\\ianhi\\.nuget\\packages\\syncfusion.xamarin.core\\21.1.41\\syncfusion.xamarin.core.21.1.41.nupkg.sha512",
-    "C:\\Users\\ianhi\\.nuget\\packages\\syncfusion.xamarin.sfcalendar\\21.1.41\\syncfusion.xamarin.sfcalendar.21.1.41.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ianhi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\ianhi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
     "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
     "C:\\Users\\ianhi\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512"
-=======
-  "dgSpecHash": "qXmMXpTJZzXL5FYur7VbtEZhkXRGLARoNvuKyyEty/vBSwpEzWJoT0+hphgM1DaTfXh4+WD/y+JcWZKLfMxdXQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Sebastian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
-    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Sebastian\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
   ],
   "logs": []
 }

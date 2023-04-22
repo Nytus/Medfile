@@ -38,5 +38,10 @@ namespace MedFile
         {
             Navigation.PushAsync(new HomePage());
         }
+        private void Button_Registro(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Registro());
+        }
+        
     }
 }  

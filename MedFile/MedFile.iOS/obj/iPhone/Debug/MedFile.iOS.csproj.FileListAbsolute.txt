@@ -188,8 +188,3 @@ C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\obj\iPhone\Debug\MedFile
 C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\obj\iPhone\Debug\MedFile.iOS.csproj.CopyComplete
 C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\obj\iPhone\Debug\MedFile.iOS.exe
 C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\obj\iPhone\Debug\MedFile.iOS.pdb
-C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
-C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.dll
-C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.iOS.dll
-C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\bin\iPhone\Debug\Syncfusion.SfCalendar.XForms.dll
-C:\Users\ianhi\source\repos\Medfile\MedFile\MedFile.iOS\bin\iPhone\Debug\Syncfusion.SfCalendar.XForms.iOS.dll

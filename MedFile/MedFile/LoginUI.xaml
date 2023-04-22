@@ -18,15 +18,34 @@
                 CornerRadius="50"
                 Clicked="Button_Clicked"
                 ></Button>
-           
-                <Button
-                Text="¿Olvido la contraseña?"
-                TextColor="#414BB2"
-                BackgroundColor="White"
-                Clicked="Button_Recuperacion"
-                ></Button>
-            
-            
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" 
+                        HorizontalOptions="Start"
+                        Text="¿Olvido la contraseña?"
+                        TextColor="#414BB2"
+                        BackgroundColor="Transparent"
+                        Clicked="Button_Recuperacion"
+                        />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" 
+                        HorizontalOptions="Start"
+                        Text="Registrese aquí"
+                        TextColor="#414BB2"
+                        BackgroundColor="Transparent"
+                        Clicked="Button_Registro"
+                        />
+            </Grid>
+
             <StackLayout>
                 <Label 
                FontSize="50"

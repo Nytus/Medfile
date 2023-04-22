@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj": {}
   },
   "projects": {
@@ -13,30 +12,13 @@
         "projectPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
         "packagesPath": "C:\\Users\\ianhi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile.iOS\\obj\\",
-=======
-    "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
-        "projectName": "MedFile.iOS",
-        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\MedFile.iOS.csproj",
-        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile.iOS\\obj\\",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\ianhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,13 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
                 "projectPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj"
-=======
-              "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
-                "projectPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj"
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
               }
             }
           }
@@ -65,9 +42,9 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "Syncfusion.Xamarin.SfCalendar": {
+            "NETStandard.Library": {
               "target": "Package",
-              "version": "[21.1.41, )"
+              "version": "[2.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -92,7 +69,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -101,26 +77,12 @@
         "projectPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\MedFile.csproj",
         "packagesPath": "C:\\Users\\ianhi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ianhi\\source\\repos\\Medfile\\MedFile\\MedFile\\obj\\",
-=======
-    "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj",
-        "projectName": "MedFile",
-        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\MedFile.csproj",
-        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Universidad\\Ing. Software\\ing. software2\\Medfile\\MedFile\\MedFile\\obj\\",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\ianhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -154,10 +116,6 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Syncfusion.Xamarin.SfCalendar": {
-              "target": "Package",
-              "version": "[21.1.41, )"
-            },
             "Xamarin.CommunityToolkit": {
               "target": "Package",
               "version": "[2.0.5, )"
@@ -182,11 +140,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> b19f91b0451808309387593d701975e3bc2a41da
         }
       }
     }

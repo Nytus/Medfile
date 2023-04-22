@@ -7,7 +7,7 @@
 
             <Image Source="Logo.png" WidthRequest="300" HeightRequest="300"></Image>
 
-            <Entry x:Name="txtMail"  Placeholder="Ingresar Rut" TextColor="Gray" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtMail"  Placeholder="Ingresar Mail" TextColor="Gray" PlaceholderColor="Gray"></Entry>
             <Button
                 VerticalOptions="Center"
                 Text="Ingrese Mail De Recuperación"
