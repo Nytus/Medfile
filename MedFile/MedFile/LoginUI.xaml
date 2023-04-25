@@ -57,6 +57,7 @@
                     VerticalOptions="CenterAndExpand"
                     WidthRequest="300" 
                     HeightRequest="150"
+                    BackgroundColor="Transparent"
                     Clicked="OnImageButtonClicked"/>
             </StackLayout>
 
